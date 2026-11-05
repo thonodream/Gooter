@@ -1,9 +1,13 @@
+sprite_index = global.sprite_rogut_regular;
+
 hp = 10;
 
 stateCower = 0;
 
 enemyDrop = 0;
 
-if (os_browser == browser_not_a_browser) alarm_set(1,20)
+if (os_browser == browser_not_a_browser and obj_settings.settings_graphics_particles == true) { alarm_set(1,20) }
 
 hat_chance = irandom_range(1,220);
+
+kill_sound = choose(snd_player_death_1,snd_player_death_2,snd_player_death_3,snd_player_death_4);

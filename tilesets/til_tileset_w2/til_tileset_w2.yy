@@ -76,7 +76,7 @@
     {"$GMTileAnimation":"","%Name":"animation_2","frames":[7,8,],"name":"animation_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
     {"$GMTileAnimation":"","%Name":"animation_3","frames":[17,18,],"name":"animation_3","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
   ],
-  "tileAnimationSpeed":4.0,
+  "tileAnimationSpeed":3.0,
   "tileHeight":16,
   "tilehsep":0,
   "tilevsep":0,

@@ -5,6 +5,14 @@ if (pause_screen == 0)
 		if (pause == 1)
 		{
 			audio_play_sound(snd_select_1,0,0,obj_settings.settings_vol_sfx);
+			room_restart();
+		}
+	}
+    if input_check_pressed("shield")
+	{
+		if (pause == 1)
+		{
+			audio_play_sound(snd_select_1,0,0,obj_settings.settings_vol_sfx);
 			pause_screen = 1;
 		}
 	}
@@ -29,6 +37,8 @@ if (pause_screen == 0)
             instance_deactivate_object(obj_teleporter_active);
             instance_deactivate_object(obj_teleporter_arrow);
             instance_deactivate_object(obj_teleporter_inactive);
+			instance_deactivate_object(obj_floraisaku);
+			instance_deactivate_object(obj_floraisaku_bullet);
             
 			if (os_browser == browser_not_a_browser)
 				{
@@ -47,7 +57,8 @@ if (pause_screen == 0)
 	{
 		if (pause == 1)
 		{
-			room_goto(rm_title);
+			audio_stop_all();
+            room_goto(obj_collision_gooter.wm_origin);
 		}
 	}
 } else if (pause_screen == 1) 

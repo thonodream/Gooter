@@ -11,7 +11,7 @@ if (other.invin == 0)
 		
 		obj_aura.auraHEART += -1;
 
-		sprite_index = spr_rogut_hiding;
+		sprite_index = global.sprite_rogut_hiding;
 		image_index = 0;
 
 		stateCower = 1;
@@ -22,7 +22,11 @@ if (other.invin == 0)
 		if(obj_aura.auraHEART < 1)
 		{
 			instance_destroy(obj_rogut_regular);
-			audio_play_sound(snd_player_death,0,0,obj_settings.settings_vol_sfx);
+			if (!audio_is_playing(snd_player_death_1) and !audio_is_playing(snd_player_death_2) and !audio_is_playing(snd_player_death_3) and !audio_is_playing(snd_player_death_4))
+			{
+				audio_play_sound(kill_sound,0,0,obj_settings.settings_vol_sfx);
+			}
+			
 	
 			with (obj_collision_gooter) alarm_set(1, 240);
 		

@@ -1,1 +1,1 @@
-sprite_index = spr_spiri_click;
+sprite_index = global.sprite_spiri_click;

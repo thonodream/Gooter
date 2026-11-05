@@ -6,7 +6,7 @@ if (obj_pause.pause != 1)
     }
 }
 
-
-alarm_set(0, irandom_range(spawn_timer_min, spawn_timer_max));
-
-
+if (obj_aura.auraHEART > 0)
+{
+	alarm_set(0, irandom_range(spawn_timer_min, spawn_timer_max));
+}

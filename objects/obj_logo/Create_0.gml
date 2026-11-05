@@ -1,3 +1,5 @@
+sprite_index = global.sprite_logo;
+
 image_alpha = 0;
 
 audio_stop_all();

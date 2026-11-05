@@ -1,6 +1,13 @@
 // Box
 draw_set_alpha(0.7);
-draw_rectangle_color(0,580,1280,640,#141223,#141223,#141223,#141223,0);
+if (obj_settings.settings_graphics_hud_theme == true)
+{
+	draw_rectangle_color(0,580,1280,640,#141223,#141223,#141223,#141223,0);
+} else 
+{
+	draw_rectangle_color(0,580,1280,640,c_white,c_white,c_white,c_white,0);
+}
+
 
 
 // = Aura icons and text = \\
@@ -39,9 +46,14 @@ draw_set_alpha(1);
 draw_text(192, 600, string("") + string(obj_aura.auraBLAST));
 
 // Charge
-draw_sprite(spr_charge_counter_icon, 0, 256, 600);
-
-draw_set_colour(#FFFF4D & c_white);
+if (obj_settings.settings_graphics_hud_theme == false)
+{
+draw_sprite(spr_charge_counter_icon_light, 0, 256, 600);
+draw_set_colour(#ffa60c & c_white);
+} else {
+	draw_sprite(spr_charge_counter_icon, 0, 256, 600);
+	draw_set_colour(#FFFF4D & c_white);
+}
 draw_set_halign(fa_center);
 draw_set_alpha(1);
 
@@ -73,9 +85,16 @@ if (obj_gooter.courageReq > 0)
 
 
 // Killscore
-draw_sprite(spr_killscore_icon, 0, 1184, 600);
+if (obj_settings.settings_graphics_hud_theme == true)
+{
+	draw_sprite_ext(spr_killscore_icon, 0, 1184, 600,1,1,0,c_white,1);
+	draw_set_colour(c_white);
+} else {
+	draw_sprite_ext(spr_killscore_icon, 0, 1184, 600,1,1,0,c_black,1);
+	draw_set_colour(c_black);
+}
 
-draw_set_colour(c_white);
+
 draw_set_halign(fa_center);
 draw_set_alpha(1);
 

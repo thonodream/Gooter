@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_settings_config",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Settings Stuff",
+    "path":"folders/UI/Settings Stuff.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

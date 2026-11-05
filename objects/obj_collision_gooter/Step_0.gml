@@ -21,7 +21,7 @@ if (obj_gooter.countdown_mode == 0)
 	/// Movement/Collision Checks
     if (obj_pause.pause != 1)
     {
-        if(!obj_aura.auraHEART <= 0)
+        if(!obj_aura.auraHEART <= 0 and stun == 0)
             {
                 if(obj_gooter.stateRoll == 0)
                 {

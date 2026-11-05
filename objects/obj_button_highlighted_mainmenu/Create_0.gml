@@ -8,7 +8,3 @@ if (room == rm_menu_home)
 button_highlighted = 0;
 
 labeltext = "";
-if (menu_type == "settings")
-{
-	settings_get = obj_settings.settings_vol_music;
-}

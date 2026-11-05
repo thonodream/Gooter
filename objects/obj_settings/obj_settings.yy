@@ -8,8 +8,8 @@
   "name":"obj_settings",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Settings Stuff",
+    "path":"folders/UI/Settings Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":true,

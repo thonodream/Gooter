@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_rogut_dying",
-  "bboxMode":0,
-  "bbox_bottom":15,
-  "bbox_left":0,
-  "bbox_right":15,
-  "bbox_top":0,
+  "bboxMode":2,
+  "bbox_bottom":13,
+  "bbox_left":13,
+  "bbox_right":24,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -23,7 +23,7 @@
   ],
   "name":"spr_rogut_dying",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Roguts",
     "path":"folders/Objects/Characters/Enemies/Roguts.yy",
@@ -68,12 +68,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"61a2e0f2-bf88-498a-ae53-90994d249a59","path":"sprites/spr_rogut_dying/spr_rogut_dying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d2ba12b1-823e-4fdb-982f-9fa199a73161","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61a2e0f2-bf88-498a-ae53-90994d249a59","path":"sprites/spr_rogut_dying/spr_rogut_dying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d2ba12b1-823e-4fdb-982f-9fa199a73161","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":8,
+    "xorigin":21,
     "yorigin":8,
   },
   "swatchColours":null,
@@ -84,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":16,
+  "width":27,
 }

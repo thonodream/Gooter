@@ -4,7 +4,7 @@ Gooter
 Press shift to go back to the title screen
 
 - Main Developer -
-Anthono220
+thonodream
 
 - GitHub Contributors -
 none yet lol
@@ -20,6 +20,8 @@ Samuel Venable - xProcess, Dialog Module
 Sabo - Newgrounds API
 Shaun Spalding - Pause System
 stoozey - SSave
+mindvoxel - Text input
+Peyton Burnham - List Menus
 And some others I probably missed
 
 - Software Used -
@@ -31,11 +33,19 @@ Libresprite - Sprites
 - Color Palette Used -
 Epik-216 by Fether
 
+- Funny dancing website -
+https://aidn.jp/wowa/
 
-
+- Special Thanks and Shoutouts -
+Kacaro_
+Stripes
+moxiest0rm
+BdenMo
+D34dbox
+RageGamer1098
 
 "
 x = room_width/2;
-y = room_height+30;
+y = room_height+40;
 height = string_height(text);
 

@@ -4,7 +4,7 @@ Be kind and respectful to one another.
 
 Don't be racist, sexist, homophobic, transphobic, ableist, any of that kind of stuff.
 
-Don't harass or doxx people, sexually or otherwise.
+Don't harass, threaten, or doxx people in any way or for any reason.
 
 Respect other people's opinions of this project.
 

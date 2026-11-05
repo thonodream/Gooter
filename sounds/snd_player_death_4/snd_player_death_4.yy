@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_player_death_4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":9,
+  "conversionMode":0,
+  "duration":3.4525626,
+  "exportDir":"",
+  "name":"snd_player_death_4",
+  "parent":{
+    "name":"Characters",
+    "path":"folders/Sounds/SFX/Characters.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_player_death_4.mp3",
+  "volume":1.0,
+}

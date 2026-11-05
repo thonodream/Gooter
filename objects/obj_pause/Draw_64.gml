@@ -18,9 +18,10 @@ if (pause == 1)
 		draw_set_color(c_white);
 		draw_set_font(fnt_pixelhud)
 		draw_set_halign(fa_center);
-		draw_text(640,256, "Press R for quick settings");
-		draw_text(640,320, "Press Shift to go back to title screen");
-		draw_text(640,384, "Press ESC again to go back to the game");
+        draw_text(640,256, "Press R to Restart Level");
+		draw_text(640,320, "Press Q for quick settings");
+		draw_text(640,384, "Press Shift to go back to world map");
+		draw_text(640,448, "Press ESC again to go back to the game");
 	} else if (pause_screen == 1)
 	{
 		// Draw BG

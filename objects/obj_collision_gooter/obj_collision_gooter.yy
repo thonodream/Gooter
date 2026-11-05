@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_collision_gooter",
@@ -33,6 +34,10 @@
     {"$GMObjectProperty":"v2","%Name":"playmusic","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"playmusic","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"wm_origin","filters":[],"listItems":[],"multiselect":false,"name":"wm_origin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_wm_1","path":"rooms/rm_wm_1/rm_wm_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_wm_1","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"stopmusic_before","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"stopmusic_before","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

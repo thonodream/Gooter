@@ -1,8 +1,8 @@
-The CODE included is licensed under the MIT License (unless specified otherwise by a third-party library). All rights reserved for the SFX, CHARACTERS, SPRITES and accompanying CHARACTER SHEETS for now. The MUSIC is free to use only under the conditions of the [Anthono220 Music Usage Policy](https://github.com/Anthono220/music-usage-policy).
+The CODE included is licensed under the MIT License (unless specified otherwise by a third-party library). All rights reserved for the SFX, CHARACTERS, SPRITES and accompanying CHARACTER SHEETS for now. The MUSIC is free to use only under the conditions of the [Music Usage Policy](https://github.com/thonodream/music-usage-policy).
 
 ---
 
-Copyright © 2025 Anthono220
+Copyright © 2026 thonodream
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

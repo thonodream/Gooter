@@ -8,6 +8,10 @@ if obj_pause.pause != 1
     if (image_xscale == 1)
     {
         instance_change(obj_rogut_regular,true);
-        audio_play_sound(snd_spawn_rogut,0,0,obj_settings.settings_vol_sfx,0,1);
+        audio_play_sound_at(snd_spawn_rogut,x,y,0,50,2000,1,0,0,obj_settings.settings_vol_sfx,0,1);
     }
+}
+if (obj_aura.auraHEART < 1)
+{
+	instance_destroy();
 }

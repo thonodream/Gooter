@@ -1,0 +1,1 @@
+stateAlive = 1;

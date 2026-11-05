@@ -1,0 +1,21 @@
+0.2.0 // Enter The Desert
+
++ Added new world: Sun Desert
++ Added 4 new levels
++ Added World Map - Access any level any time!
++ You can still jump straight to the action 
+with "Arcade" Mode
++ Added Play Menu
++ Revamped Options Menu and added new settings
++ Added new music track for the Main Menu
++ Replaced World 1 music track
++ Added light mode option for HUD
++ Particles can now be turned off (forced on HTML5)
++ The disclaimers screen can now be disabled
++ Added directional text to menus
++ Added a funny surprise for HTML5 players in the Main Menu
++ Various tweaks, improvements, and bug fixes
+
+0.1.0 // Demo Launch
+
++ Base game released

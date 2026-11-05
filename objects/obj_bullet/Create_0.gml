@@ -2,14 +2,6 @@ direction = obj_gooter.image_angle;
 
 image_angle = direction;
 
-
-//var l3E2A46CB_0 = false;
-//l3E2A46CB_0 = instance_exists(obj_spiri);
-//if(!l3E2A46CB_0)
-//{
-	//instance_destroy();
-//}
-
 speed = 20.5;
 
 

@@ -1,1 +1,1 @@
-sprite_index = spr_spiri;
+sprite_index = global.sprite_spiri;

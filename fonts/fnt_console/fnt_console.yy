@@ -136,6 +136,6 @@
     "name":"texgr_fonts",
     "path":"texturegroups/texgr_fonts",
   },
-  "TTFName":"/home/anthono220/Documents/GitHub/Gooter/fonts/fnt_console/GooterMini.ttf",
+  "TTFName":null,
   "usesSDF":false,
 }

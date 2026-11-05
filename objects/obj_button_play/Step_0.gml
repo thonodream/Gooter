@@ -4,14 +4,9 @@ if (input_check_pressed("select"))
 {
 	if (obj_button_highlighted_mainmenu.button_highlighted == 0) 
 	{
-		layer_sequence_create("Assets_2",(room_width/2),(room_height/2),seq_blue_popup);
+		layer_sequence_create("Assets_2",(room_width/2),(room_height/2),seq_play_popup);
 		audio_play_sound(snd_select_1,0,0,obj_settings.settings_vol_sfx);
 	}
-}
-
-if (input_check_pressed("blast"))
-{
-	if (obj_button_highlighted_mainmenu.button_highlighted == 0) room_goto(rm_lvl_test);
 }
 
 if (obj_button_highlighted_mainmenu.button_highlighted == 0) sprite_index = spr_button_play_highlighted;

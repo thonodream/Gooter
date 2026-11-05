@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.5027,
+  "duration":0.49633333,
   "exportDir":"",
   "name":"snd_pause_off",
   "parent":{
