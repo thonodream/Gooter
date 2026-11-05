@@ -5,8 +5,8 @@
 
 ---
 ![Static Badge](https://img.shields.io/badge/license-MIT-red)
-![GitHub Release](https://img.shields.io/github/v/release/Anthono220/Gooter)
-![GitHub Issues](https://img.shields.io/github/issues/Anthono220/Gooter?color=yellow)
+![GitHub Release](https://img.shields.io/github/v/release/thonodream/Gooter?color=orange)
+![GitHub Issues](https://img.shields.io/github/issues/thonodream/Gooter?color=yellow)
 ![Static Badge](https://img.shields.io/badge/engine-GameMaker-green)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Anthono220/Gooter/total?color=blue)
 
